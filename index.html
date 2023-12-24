@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>IDE (자기소개)</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="tools">
+        <label class="run" for="expand-shell">Run</label>
+        <input type="checkbox" id="expand-shell" name="expand-shell">
+
+        <div class="shell">
+            <p>0.00 s</p>
+            <p><span class="teb">.</span></p>
+            <p>이름 : 선우주</p>
+            <p>나이 : 00</p>
+            <p><span class="teb">.</span></p>
+            <p>학번 : 000000000</p>
+            <p><span class="teb">.</span></p>
+            <p>자격증 : ITQ(엑셀, 한글, PPT), 정보처리산업기사, 웹디자인기능사</p>
+            <p><span class="teb">.</span></p>
+            <p>기술 스택 : HTML, CSS, Javascript, nodejs, Java(Spring, Spring Boot, </p>
+            <p>Servlet, JSP), DBMS(Mysql, Oracle, MariaDB, MSSQL), Linux(CentOS),</p>
+            <p>Arduino, React, Python</p>
+            <p><span class="teb">.</span></p>
+            <p>주제 선정 이유 : </p>
+            <p>평소에 취미로 코딩관련 외부 개인/단체 프로젝트를 진행하고 있으며, 지금</p>
+            <p>까지 진행했던 프로젝트를 정리 및 설명하는 페이지를 구성하고 싶어 취미</p>
+            <p>라는 주제를 선택하였습니다.</p>
+        </div>
+    </div>
+    <div class="editor">
+        <div class="line_number">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>10</p>
+            <p>11</p>
+            <p>12</p>
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>19</p>
+            <p>20</p>
+        </div>
+        <div class="code">
+            <div>
+                <span class="t-c-g">// Run 버튼을 클릭하시면 아래 코드 실행</span> 
+            </div>
+            <div>
+                <span class="t-c-p b-c-p">#include</span> 
+                <span class="t-c-o">&lt;studio.h&gt;</span>
+            </div>
+            <div>
+                <span class="t-c-p b-c-p">#include</span> 
+                <span class="t-c-o">"about_me.h"</span>
+            </div>
+            <div><span class="teb">.</span><div>
+            <div>
+                <span class="t-c-p b-c-p">int</span> 
+                <span class="t-c-p">main</span> ( ) {
+            </div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-p">char</span> 
+                name[3] = {
+                <span class="t-c-o">'선'</span>,
+                <span class="t-c-o">'우'</span>,
+                <span class="t-c-o">'주'</span>
+                };
+            </div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-p">int</span> 
+                age = 00;
+            </div>
+            <div><span class="teb">.</span></div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-p ">printf</span>(
+                <span class="t-c-o">"이름 : %s"</span>
+                , name);
+            </div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-p ">printf</span>(
+                <span class="t-c-o">"나이 : %d \n"</span>
+                , age);
+            </div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-g">// 아래 info() 함수에 커서를 올리면 함수 설명 출력</span> 
+            </div>
+            <div style="display: flex; margin: 0px;">
+                <div style="width: 190px; margin: 0px; ">
+                    <span class="teb">....</span>
+                    <span class="t-c-p">printf</span>(
+                    <span class="t-c-o">"%s"</span>, 
+                </div>
+                <div class="t-c-p function">
+                    info
+                    <div class="popup">
+                        <div class="popup_t">
+                            <p>이 함수에서는 이름과 나이를 메게변수로</p>
+                            <p>받아 학번, 자격증, 기술 스택, 주제선정</p>
+                            <p>이유 등을 반환합니다.</p>
+                        </div>
+                        <div class="popup_b">
+                            <a href="./login.html"><p>Docs...(프로젝트 내용 자세히)</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 0px;">(name, age));</div>
+            </div>
+            <div><span class="teb">.</span></div>
+            <div>
+                <span class="teb">....</span>
+                <span class="t-c-b b-c-b">return</span> 0;
+            </div>
+            <div>}</div>
+        </div>
+    </div>
+</body>
+</html>

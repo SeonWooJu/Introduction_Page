@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    min-width: 1800px;
+    max-width: 100%; 
+}
+
+.top {
+    min-width: 1800px;
+    max-width: 100%;
+    height: 60px;
+    background-color: #4D7A97;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.content {
+    margin: 0px auto;
+    margin-top: 90px;
+    width: 1750px;
+}
+
+.content > ul > li {
+    list-style-image: url("../img/list_W.png");
+}
+
+.content > ul > li > a {
+    text-decoration: none;
+    color: #4A6782;
+}
+
+.sort {
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color: #F8971C;
+    cursor: pointer;
+}
+
+.frame {
+    min-width: 1750px;
+    max-width: 100%; 
+    margin-top: 50px;
+}
+
+.table-asc, .table-desc {
+    width: 100%;
+    height: 400px;
+}
+
+#change-sort:not(:checked) ~ .table-desc {display: none;}
+#change-sort:not(:checked) ~ .table-asc {display: block;}
+#change-sort {display: none;}
+#change-sort:checked ~ .table-desc {display: block;}
+#change-sort:checked ~ .table-asc {display: none;}
+
+.videos {
+    min-width: 1750px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+#open-close:not(:checked) ~ .video_ {display: none;}
+#open-close {display: none;}
+#open-close:checked ~ .video_ {display: block;}
+
+.music {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.music > img {
+    width: 60px;
+    height: 60px;
+    filter: invert(100%);
+}
+
+.music_ {
+    /* display: none; */
+    position: absolute;
+    top: 65px;
+    right: 13px;
+}
+
+#music_box:not(:checked) ~ .music_ {display: none;}
+#music_box {display: none;}
+#music_box:checked ~ .music_ {display: block;}

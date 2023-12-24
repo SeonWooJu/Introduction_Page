@@ -1,0 +1,158 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    min-width: 1800px;
+    max-width: 100%;      
+}
+
+.tools {
+    min-width: 1800px;
+    max-width: 100%;
+    height: 60px;
+    background-color: #282828;
+}
+
+.run {
+    width: 52px;
+    height: 28px;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.run:hover {
+    background-color: greenyellow;
+    color: #333333;
+}
+
+.shell {
+    width: 900px;
+    height: 850px;
+    background-color: #424242;
+    border-radius: 5px;
+    box-shadow: -10px 5px 10px 1px black;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    display: none;
+}
+
+.shell p {
+    color: white;
+    font-size: 27px;
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+
+.tools #expand-shell:not(:checked) ~ .shell {display: none;}
+#expand-shell {display: none;}
+#expand-shell:checked ~ .shell {display: block;}
+
+.editor {
+    width: 1800px;
+    height: 850px;
+}
+
+.editor p, div {
+    color: white;
+    font-size: 27px;
+    margin: 5px 0px;
+}
+
+.line_number {
+    width: 30px;
+    height: 850px;
+    text-align: right;
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+.code {
+    width: 700px;
+    height: 850px;
+    float: left;
+    padding-left: 10px;
+}
+
+.function {
+    width: 50px;
+    margin: 0px;
+}
+
+.popup {
+    width: 500px;
+    height: 160px;
+    background-color: #424242;
+    position: absolute;
+    top: 560px;
+    left: 250px;
+    display: none;
+}
+
+.popup p {
+    margin-left: 5px;
+}
+
+.popup_t {
+    width: 500px;
+    height: 120px;
+}
+
+.popup_t > p {
+    font-size: 26px;
+}
+
+.popup_b {
+    width: 500px;
+    height: 40px;
+    background-color: #3C3C3C;
+}
+
+.popup_b > a{
+    text-decoration: none;
+    p {
+        color: skyblue;
+    }
+}
+
+.function:hover .popup {
+    display: block;
+}
+
+.teb {
+    color: #333333;
+}
+
+.t-c-p {
+    color: #FA47E2;
+}
+
+.b-c-p {
+    background-color: #660058;
+    border-radius: 5px;
+}
+
+.t-c-o {
+    color: #FA5647;
+}
+
+.t-c-b {
+    color: #47AEFA;
+}
+
+.b-c-b {
+    background-color: #003C66;
+    border-radius: 5px;
+}
+
+.t-c-g {
+    color: #828282;
+}

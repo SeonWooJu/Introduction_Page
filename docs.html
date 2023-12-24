@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>WJ Docs</title>
+    <link rel="stylesheet" href="./css/docs.css">
+</head>
+<body>
+    <div class="top">
+        <a href="./docs.html" class="logo">
+            <img src="./img/WJDocs_logo.png" alt="logo">
+        </a>
+        <label class="music" for="music_box">
+            <img src="./img/music_ikon.png" alt="music_ikon">
+        </label>
+        <input type="checkbox" id="music_box" name="music_box">
+        <audio class="music_" src="./mp3/Le carnaval des animaux XIII Le cygne Transcr L Godowsky for Piano.mp3" autoplay controls></audio>
+    </div> 
+    <div class="content">
+        <h2>WJ Dosc</h2>
+        <p>WJ 포트폴리오 설명 페이지에 오신 것을 환영합니다!</p>
+        <p>WJ Docs는 선우주가 제작한 프로젝트에 관한 내용을 설명하고 있습니다.</p>
+        <p>프로젝트 업로드 페이지</p>
+        <ul>
+            <li>
+                <a href="http://github.com/SeonWooJu" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="http://github.com/ChimPlanet" target="_blank">Team Project</a>
+            </li>
+        </ul>
+        <div class="frame">
+            <label class="sort" for="change-sort">
+                <strong>정렬</strong>
+            </label>
+            <br>
+            <input type="checkbox" id="change-sort" name="change-sort">
+            <iframe class="table-asc" src="./table/ASC.html" frameborder="0"></iframe>
+            <iframe class="table-desc" src="./table/DESC.html" frameborder="0"></iframe>
+        </div>
+        <div class="videos">
+            <label class="btn" for="open-close">
+                ※위 프로젝트를 진행하며 느낀 React 입니다.(클릭) ▿
+            </label>
+            <br>
+            <input type="checkbox" id="open-close" name="open-close">
+            <div class="video_">
+                <video src="./mp4/react_state.mp4" width="330px" controls></video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
